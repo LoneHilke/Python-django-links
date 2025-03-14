@@ -1,0 +1,99 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+<style>
+    table{
+        background-color: green;
+        text-align: center;
+        color: white;
+    }
+    h2{
+        color: red;
+    }
+    caption{
+        color:blue;
+    }
+
+</style>
+<h1></h1>
+<br>
+<h2>Der ud over har jeg arbejdet med følgende M365 programmer:</h2>
+<!--<div id="microsoft">
+<h4 font=green><u><b>Microsoft 365</b></u></h4>
+    <table>
+        <caption>Microsoft 365</caption>
+        <thead>
+        <tr>
+            <th colspan="2">Microsoft </colspan>
+            <th colspan="2">365 Apps</th>
+            
+        </tr>
+    </thead>
+    <h4>
+    <tbody>
+        <tr>
+            
+            <td>Word</td>
+            <td>Exel</td>
+        </tr>
+        <tr>
+            <td>Power Point</td>
+            <td>Teams</td>
+            
+        </tr>
+        <tr>
+            <td>Power Apps</td>
+            <td>Sway</td>
+            
+            
+        </tr> 
+        <tr>
+            <td>OneNote</td>
+            <td>List</td>
+        </tr>
+        <tr>
+            <td>Powise Presenter</td>
+            <td>Share Point</td>
+        </tr>
+    </tbody>
+</h4>
+    </table>
+</div>-->
+<table class="table table-success table-striped-columns">
+    <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col"><b>Microsoft</b></th>
+          <th scope="col"><b>365</b></th>
+          <th scope="col"><b>Apps</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Word</td>
+          <td>Teams</td>
+          <td>Exel</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Power Point</td>
+          <td>Power Apps</td>
+          <td>List</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td >Share Point</td>
+          <td >OneNote</td>
+          <td>Sway</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td >Powise Presenter</td>
+            <td >Stream</td>
+            <td>Co-Pilot</td>
+          </tr>
+      </tbody>
+    </table>
+
+{% endblock content %}
